@@ -127,3 +127,21 @@ img.greedywidth {
     top: 0%;
     bottom: 0%;
 }
+
+#showstable {
+    border-width: 2px;
+    border-spacing: 0px;
+    border-color: black;
+    border-collapse: collapse;
+    border-style: solid;
+    left: 20%;
+    right: 20%;
+}
+#showstable td, #showstable th {
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    padding: 4px;
+    vertical-align: middle;
+    text-align: center;
+}
