@@ -1,0 +1,31 @@
+
+#showstitle {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+#photostitle {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+#showstable {
+    border-width: 2px;
+    border-spacing: 0px;
+    border-color: black;
+    border-collapse: collapse;
+    border-style: solid;
+    left: 20%;
+    right: 20%;
+}
+#showstable td, #showstable th {
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    padding: 4px;
+    vertical-align: middle;
+    text-align: center;
+}
