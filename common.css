@@ -117,12 +117,12 @@ img.greedywidth {
     top: 0%;
     bottom: 0%;
 }
-#link_guestbook {
+#link_archive {
     left: 71%;
     position: absolute;
     margin-bottom: auto;
     margin-top: auto;
-    max-width: 28%;
+    max-width: 12%;
     max-height: 100%;
     top: 0%;
     bottom: 0%;

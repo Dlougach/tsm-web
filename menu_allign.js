@@ -1,6 +1,6 @@
 function allignNavigationMenu() {
     var containerWidth = document.getElementById("links_section").offsetWidth;
-    var linksList = ["link_aboutus", "link_performances", "link_contacts", "link_guestbook"];
+    var linksList = ["link_aboutus", "link_performances", "link_contacts", "link_archive"];
     var totalChildrenSpace = containerWidth - linksList.map( function(id) {return document.getElementById(id).offsetWidth}).reduce(function(a,b){return a+b;}, 0);
     var extraSpaceForEach = totalChildrenSpace / (linksList.length - 1);
     var offset = 0;
