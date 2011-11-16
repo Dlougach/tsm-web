@@ -1,13 +1,13 @@
 function allignNavigationMenu() {
-    var containerWidth = document.getElementById("links_section").offsetWidth;
+    var containerWidth = xWidth("links_section");
     var linksList = ["link_aboutus", "link_performances", "link_contacts", "link_archive"];
-    var totalChildrenSpace = containerWidth - linksList.map( function(id) {return document.getElementById(id).offsetWidth}).reduce(function(a,b){return a+b;}, 0);
+    var totalChildrenSpace = containerWidth - linksList.map( function(id) {return xWidth(id)}).reduce(function(a,b){return a+b;}, 0);
     var extraSpaceForEach = totalChildrenSpace / (linksList.length - 1);
     var offset = 0;
     for (i in linksList) {
         var id = linksList[i];
         document.getElementById(id).style.left = offset.toString() + "px";
-        offset += document.getElementById(id).offsetWidth + extraSpaceForEach;
+        offset += xWidth(id) + extraSpaceForEach;
     }
 }
 
@@ -74,8 +74,8 @@ function registerNavigationMenuAlligner() {
             return rv;
         };
     }
-    $(window).bind('resize', allignNavigationMenu);
-    $(window).bind('load', allignNavigationMenu);
+    xAddEventListener(window, "resize", allignNavigationMenu, false);
+    xAddEventListener(window, "load", allignNavigationMenu, false);
     allignNavigationMenu();
 }
 

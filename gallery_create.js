@@ -1,6 +1,6 @@
 function getGalleryWidth() {
-    var w1 = window.innerWidth * 0.67 * 0.8;
-    var w2 = window.innerHeight * 0.55 / 0.7;
+    var w1 = xClientWidth() * 0.67 * 0.8;
+    var w2 = xClientHeight() * 0.55 / 0.7;
     if (w1 < w2) {
         return w1;
     }
@@ -52,14 +52,14 @@ function createGallery(photosPrefix,photosCount,divId) {
                 }));
             });
             var gal = this;
-            $(window).bind('resize', function() {
+            xAddEventListener(window, "resize", function() {
                 w = getGalleryWidth();
                 c.style.width = w + 'px';
                 c.style.height = w*0.75 + 'px';
                 gal.rescale(null, null, function(){});
                 c.style.marginLeft = (-w*0.5) + "px";
                 c.style.left = "50%";
-            });
+            }, false);
         }
     });
 }
