@@ -27,13 +27,15 @@ img {
     position: fixed;
     top: 0px;
     left: 0px;
-    height: 19.2913386%;
+    height: 13.1233596%;
     right: 0px;
     width: 100%;
     z-index: 100;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    background-color: transparent;
+    border: none;
 }
 
 #curtainbottom {
@@ -47,6 +49,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    background-color: transparent;
+    border: none;
 }
 #mainsection {
     position: absolute;
