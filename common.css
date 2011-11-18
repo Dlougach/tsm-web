@@ -10,59 +10,94 @@ h3 {
 img {
     border-style: none;
 }
-#bgimage {
-    position: fixed;
-    left: 0%;
-    bottom: 0%;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    z-index: -2;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+@media only screen and (max-device-width: 480px), print, handheld {
+    #bgimage {
+        visibility: hidden;
+        display: none;
+    }
+
+    #curtaintop {
+        visibility: hidden;
+        display: none;
+    }
+
+    #curtainbottom {
+        visibility: hidden;
+        display: none;
+    }
+    
+    #mainsection {
+        position: absolute;
+        display: block;
+        left: 5%;
+        width: 90%;
+        top: 10%;
+    }
+    #endmainsection {
+        display: none;
+    }
 }
 
-#curtaintop {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 13.1233596%;
-    right: 0px;
-    width: 100%;
-    z-index: 100;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: transparent;
-    border: none;
+
+@media screen {
+    #bgimage {
+        position: fixed;
+        left: 0%;
+        bottom: 0%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        z-index: -2;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #curtaintop {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 13.1233596%;
+        right: 0px;
+        width: 100%;
+        z-index: 100;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    #curtainbottom {
+        position: fixed;
+        bottom: 0%;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: 20.2099738%;
+        z-index: 100;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+    #mainsection {
+        position: absolute;
+        display: block;
+        left: 20%;
+        width: 67%;
+        top: 20%;
+    }
+    #endmainsection {
+        display: block;
+        height: 200px;
+        width: 100%;
+    }
 }
 
-#curtainbottom {
-    position: fixed;
-    bottom: 0%;
-    left: 0px;
-    right: 0px;
-    width: 100%;
-    height: 20.2099738%;
-    z-index: 100;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: transparent;
-    border: none;
-}
-#mainsection {
-    position: absolute;
-    left: 20%;
-    width: 67%;
-    top: 20%;
-}
-#endmainsection {
-    display: block;
-    height: 200px;
-    width: 100%;
-}
+
 
 img.greedy {
     position: absolute;
@@ -77,19 +112,42 @@ img.greedywidth {
     margin-left: 0%;
     margin-right: 0%;
 }
-#links_section {
-    z-index: 1024;
-    position: fixed;
-    height: 6.5%;
-    left: 24%;
-    right: 16%;
-    bottom: 2.5%;
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+@media screen {
+    #links_section {
+        z-index: 1024;
+        position: fixed;
+        height: 6.5%;
+        left: 24%;
+        right: 16%;
+        bottom: 2.5%;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
+@media only screen and (max-device-width: 480px), handheld {
+    #links_section {
+        z-index: 1024;
+        position: absolute;
+        height: 6.5%;
+        left: 10%;
+        right: 10%;
+        top: 2.5%;
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media print {
+    #links_section {
+        display: none;
+    }
+}
+
 #link_aboutus {
     display: block;
     left: 1%;
