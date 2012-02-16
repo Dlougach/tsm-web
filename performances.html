@@ -49,6 +49,15 @@
         </div>
 
         <script type="text/javascript">registerNavigationMenuAlligner()</script>
+        <script type="text/javascript">
+            function allignMatveevaRow() {
+                var rowHeight = xHeight("matveevaDesc") / 2;
+                document.getElementById("matveevaFirstRow").style.height = rowHeight.toString() + "px";
+            }
+            xAddEventListener(window, "resize", allignMatveevaRow, false);
+            xAddEventListener(window, "load", allignMatveevaRow, false);
+            allignMatveevaRow();
+        </script>
 
         <div id="mainsection">
             <div id="performances_title"><img class="greedywidth" src="new/performances_title.png" alt="Наши выступления"/></div>
@@ -58,10 +67,45 @@
                 <tr>
                     <th width="20%">Дата</th>
                     <th width="10%">Время</th>
-                    <th width="30%">Название</th>
-                    <th width="30%">Место проведения</th>
+                    <th width="35%">Название</th>
+                    <th width="25%">Место проведения</th>
                     <th width="10%"></th>
                     <th width="10%"></th>
+                </tr>
+                <tr id="matveevaFirstRow">
+                    <td>25 февраля 2012&nbsp;г.</td>
+                    <td>18:00</td>
+                    <td rowspan="2" id="matveevaDesc">
+                        <p><u>Шедевры русской и зарубежной музыки</u></p>
+                        <p>
+                            В программе: Шопен, Лист, арии&nbsp;Моцарта и Россини,
+                            романсы&nbsp;Рахманинова и Кюи
+                        </p>
+                        <p>
+                            <div style="margin: 10px;">
+                            Исполнители:
+                            </div>
+                            Солистка Театра&nbsp;старинной&nbsp;музыки<br/>
+                            лауреат международных конкурсов<br/>
+                            <em>Антонина Матвеева (сопрано)</em>
+                            <div style="margin: 10px;">
+                            и
+                            </div>
+                            лауреат международного конкурса<br/>
+                            <em>Валентина Матюшко (фортепиано)</em>
+                        </p>
+                    </td>
+                    <td>Библиотека искусств им.&nbsp;Боголюбова</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CJakzJ3o">Карта</a></td>
+                    <td><!-- афишы нет --></td>
+                </tr>
+                <tr>
+                    <td>12 марта 2012&nbsp;г.</td>
+                    <td>19:00</td>
+                    <!-- empty row -->
+                    <td>Центральный Дом Ученых &mdash; камерный зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CJak7Qmy">Карта</a></td>
+                    <td><!-- афишы нет --></td>
                 </tr>
                 <tr>
                     <td><strike>6</strike> <b>3</b> апреля 2012&nbsp;г.</td>
