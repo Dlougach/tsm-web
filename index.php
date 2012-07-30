@@ -2,9 +2,7 @@
 <html xml:lang="ru" lang="ru" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Театр старинной музыки</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8" />
-        <link rel="stylesheet" type="text/css" href="common.css"/>
+        <?php include("head-common.shtml") ?>      
         <style type="text/css" media="all">
             #aboutus1 {
                 margin-left: 32%;
@@ -20,23 +18,9 @@
                 margin-bottom: 5%;
             }
         </style>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-        <script type="text/javascript" src="xlib/x.js"></script>
-        <script type="text/javascript" src="menu_allign.js"></script>
     </head>
-    <body>
-        <img id="bgimage" src="new/background1.jpg" alt="background1"/>
-        <img id="curtaintop" src="new/background2top.png" alt="background2"/>
-        <img id="curtainbottom" src="new/background2bottom.png" alt="background2"/>
-        
-        <div id="links_section">
-            <img id="link_aboutus" src="new/aboutus_linkh.png" alt="О нас"/>
-            <a href="performances.html"><img id="link_performances" src="new/performances_link.png" alt="Выступления" /></a>
-            <a href="contacts.html"><img id="link_contacts" src="new/contacts_link.png" alt="Наши координаты" /></a>
-            <a href="archive/repert.htm"><img id="link_archive" src="new/archive_link.png" alt="Архив" /></a>
-        </div>
-        
-        <script type="text/javascript">registerNavigationMenuAlligner()</script>
+    <body>   
+        <?php include("bg_and_links_section.php") ?>
         
         <div id="mainsection">
             <div id="aboutus2"><img class="greedywidth" src="new/aboutus2.png" alt="Фотография хрен-знамо какого года"/></div>

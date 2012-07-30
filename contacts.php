@@ -19,18 +19,7 @@
         <script type="text/javascript" src="menu_allign.js"></script>
     </head>
     <body> 
-        <img id="bgimage" src="new/background1.jpg" alt="background1"/>
-        <img id="curtaintop" src="new/background2top.png" alt="background2"/>
-        <img id="curtainbottom" src="new/background2bottom.png" alt="background2"/>
-        
-        <div id="links_section">
-            <a href="index.html"><img id="link_aboutus" src="new/aboutus_link.png" alt="О нас"/></a>
-            <a href="performances.html"><img id="link_performances" src="new/performances_link.png" alt="Выступления" /></a>
-            <img id="link_contacts" src="new/contacts_linkh.png" alt="Наши координаты" />
-            <a href="archive/repert.htm"><img id="link_archive" src="new/archive_link.png" alt="Архив" /></a>
-        </div>
-        
-        <script type="text/javascript">registerNavigationMenuAlligner()</script>
+        <?php include("bg_and_links_section.php") ?>
         
         <div id="mainsection">
             

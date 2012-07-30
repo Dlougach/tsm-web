@@ -2,9 +2,7 @@
 <html xml:lang="ru" lang="ru" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Театр старинной музыки &mdash; Выступления</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8" />
-        <link rel="stylesheet" type="text/css" href="common.css"/>
+        <?php include("head-common.shtml") ?>
         <style type="text/css" media="all">
             #performances_title {
                 margin-left: 20%;
@@ -32,23 +30,9 @@
                 table-layout: fixed;
             }
         </style>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-        <script type="text/javascript" src="xlib/x.js"></script>
-        <script type="text/javascript" src="menu_allign.js"></script>
     </head>
     <body>
-        <img id="bgimage" src="new/background1.jpg" alt="background1"/>
-        <img id="curtaintop" src="new/background2top.png" alt="background2"/>
-        <img id="curtainbottom" src="new/background2bottom.png" alt="background2"/>
-
-        <div id="links_section">
-            <a href="index.html"><img id="link_aboutus" src="new/aboutus_link.png" alt="О нас"/></a>
-            <img id="link_performances" src="new/performances_linkh.png" alt="Выступления" />
-            <a href="contacts.html"><img id="link_contacts" src="new/contacts_link.png" alt="Наши координаты" /></a>
-            <a href="archive/repert.htm"><img id="link_archive" src="new/archive_link.png" alt="Архив" /></a>
-        </div>
-
-        <script type="text/javascript">registerNavigationMenuAlligner()</script>
+        <?php include("bg_and_links_section.php") ?>
         
         <div id="mainsection">
             <div id="performances_title"><img class="greedywidth" src="new/performances_title.png" alt="Наши выступления"/></div>
@@ -75,34 +59,42 @@
                             </ul>
                         </div>
                     </td>
-                    <td>ДК МГУ &mdash; Большой зал</td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
                     <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
                     <td> <a target="_blank" href="posters/poster-2012-may-22.pdf">Афиша</a></td>
                 </tr>
             </table>
+            
 
             <div id="performances_past"><img class="greedywidth" src="new/past_performances.png" alt="Прошедшие"/></div>
             <table id="repertoir_table" border="0" cellpadding="4%">
                 <col width="30%"/><col/>
                 <tr>
-                    <td valign="middle"><a href="concerts.html"><img class="greedywidth" src="new/repertoir_concert.png" alt="Концертные программы"/></a></td>
+                    <td valign="middle"><a href="concerts.php"><img class="greedywidth" src="new/repertoir_concert.png" alt="Концертные программы"/></a></td>
                     <td valign="baseline">
                         <p>В своих концертах Театр исполняет, в основном, духовную музыку. Но бывают и исключения...</p>
                         <p><a href="concerts.html">Читать далее</a></p>
                     </td>
                 </tr>
                 <tr>
-                    <td valign="middle"><a href="spring2010.html"><img class="greedywidth" src="new/repertoir_30years.jpg" alt="Оглянуться не успели, 30 лет как пролетели"/></a></td>
+                    <td valign="middle"><a href="orphee_aux_enfers.php"><img class="greedywidth" src="new/repertoir_orphee.png" alt="Орфей в аду" /></a></td>
                     <td valign="baseline">
-                        <p>Юбилейное представление&nbsp;&mdash; избранные сцены из спектаклей.</p>
-                        <p><a href="spring2010.html">Читать далее</a></p>
+                        <p>Орфей в аду - опера-буфф Жака Офенбаха. Первая постановка второй редакции оперы в России с авторским либретто.</p>
+                        <p><a href="orphee_aux_enfers.php">Читать далее</a></p>
                     </td>
                 </tr>
                 <tr>
-                    <td valign="middle"><a href="kaffee.html"><img class="greedywidth" src="new/repertoir_kaffee.jpg" alt="Кофейная кантата"/></a></td>
+                    <td valign="middle"><a href="spring2010.php"><img class="greedywidth" src="new/repertoir_30years.jpg" alt="Оглянуться не успели, 30 лет как пролетели"/></a></td>
+                    <td valign="baseline">
+                        <p>Юбилейное представление&nbsp;&mdash; избранные сцены из спектаклей.</p>
+                        <p><a href="spring2010.php">Читать далее</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="middle"><a href="kaffee.php"><img class="greedywidth" src="new/repertoir_kaffee.jpg" alt="Кофейная кантата"/></a></td>
                     <td valign="baseline">
                         <p>Маленькая шуточная опера И.&nbsp;С.&nbsp;Баха.</p>
-                        <p><a href="kaffee.html">Читать далее</a></p>
+                        <p><a href="kaffee.php">Читать далее</a></p>
                     </td>
                 </tr>
                 <tr>
