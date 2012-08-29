@@ -48,20 +48,59 @@
                     <th width="10%"></th>
                 </tr>
                 <tr>
-                    <td>22 мая 2012&nbsp;г.</td>
+                    <td>28 сентября 2012&nbsp;г.</td>
                     <td>19:00</td>
-                    <td>
-                        <p><u>Закрытие 32-го сезона</u></p>
-                        <div align="left">
-                            <ul>
-                                <li>XX век в старинном стиле</li>
-                                <li>Концерт солистов Театра</li>
-                            </ul>
-                        </div>
+                    <td><u>Открытие 33<sup>го</sup> сезона</u></td>
+                    <td>ДК МГУ &mdash; Мраморное&nbsp;фойе</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2012-september-28.pdf">Афиша</a></td>
+                </tr>
+                <tr style="border-width: 0px">
+                    <td colspan="6" align="center" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666"> 
+                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2012-september-28.jpg"/>
                     </td>
+                </tr>
+                
+                <tr>
+                    <td>26 октября 2012&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td><u>Орфей в аду</u></td>
                     <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
                     <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
-                    <td> <a target="_blank" href="posters/poster-2012-may-22.pdf">Афиша</a></td>
+                    <td> <a target="_blank" href="posters/poster-2012-octrober-26.pdf">Афиша</a></td>
+                </tr>
+                <tr>
+                    <td colspan="6" align="center" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666"> 
+                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2012-october-26.jpg"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>21 декабря 2012&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td>Рождественский&nbsp;концерт&nbsp;&mdash; <u>Итальянцы в Италии, Итальянцы в России</u></td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2012-december-21.pdf">Афиша</a></td>
+                </tr>
+                <tr style="border-width: 0px">
+                    <td colspan="6" align="center" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666"> 
+                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2012-december-21.jpg"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>5 апреля 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td><u>Вторая жизнь великого господина Генделя</u></td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-april-5.pdf">Афиша</a></td>
+                </tr>
+                <tr style="border-width: 0px">
+                    <td colspan="6" align="center"> <!-- style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666" -->
+                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2013-april-5.jpg"/>
+                    </td>
                 </tr>
             </table>
             
