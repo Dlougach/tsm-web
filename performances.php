@@ -112,7 +112,7 @@
                     <td valign="middle"><a href="concerts.php"><img class="greedywidth" src="new/repertoir_concert.png" alt="Концертные программы"/></a></td>
                     <td valign="baseline">
                         <p>В своих концертах Театр исполняет, в основном, духовную музыку. Но бывают и исключения...</p>
-                        <p><a href="concerts.html">Читать далее</a></p>
+                        <p><a href="concerts.php">Читать далее</a></p>
                     </td>
                 </tr>
                 <tr>
