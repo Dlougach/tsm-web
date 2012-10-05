@@ -31,6 +31,14 @@
                     <th width="10%"></th>
                 </tr>
                 <tr>
+                    <td>28 сентября 2012&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td>Открытие 33<sup>го</sup> сезона</td>
+                    <td>ДК МГУ &mdash; Мраморное&nbsp;фойе</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2012-september-28.pdf">Афиша</a></td>
+                </tr>
+                <tr>
                     <td>22 мая 2012&nbsp;г.</td>
                     <td>19:00</td>
                     <td>Закрытие 32-го сезона</td>
