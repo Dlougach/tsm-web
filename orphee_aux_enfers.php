@@ -144,6 +144,12 @@
                     <td>ДК МГУ&nbsp;&mdash; Большой зал</td>
                     <td> <a target="_blank" href="about:blank">Программа (coming soon)</a> </td>
                 </tr>
+                <tr>
+                    <td>26 октября 2012&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="about:blank">Программа (coming soon)</a> </td>
+                </tr>
             </table>
             
             <div id="photostitle"><img class="greedywidth" src="new/photos.png" alt="Фотографии" /></div>

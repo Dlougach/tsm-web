@@ -48,20 +48,6 @@
                     <th width="10%"></th>
                 </tr>
                 <tr>
-                    <td>26 октября 2012&nbsp;г.</td>
-                    <td>19:00</td>
-                    <td><u>Орфей в аду</u></td>
-                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
-                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
-                    <td> <a target="_blank" href="posters/poster-2012-octrober-26.pdf">Афиша</a></td>
-                </tr>
-                <tr>
-                    <td colspan="6" align="center" style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666"> 
-                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2012-october-26.jpg"/>
-                    </td>
-                </tr>
-                
-                <tr>
                     <td>21 декабря 2012&nbsp;г.</td>
                     <td>19:00</td>
                     <td>Рождественский&nbsp;концерт&nbsp;&mdash; <u>Итальянцы в Италии, Итальянцы в России</u></td>
