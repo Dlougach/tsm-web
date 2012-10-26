@@ -36,6 +36,13 @@
                 Гугуева Татьяна Анатольевна<br/>
                 E-mail: <a href="mailto:gugutata-tsm@yandex.ru">gugutata-tsm@yandex.ru</a>
             </p>
+            
+            <h3>Для справок</h3>
+            <p>
+                Плавич Павел<br/>
+                Телефон: +7 (926) 166-76-50<br/>
+                E-mail: <a href="mailto:pasha2186@list.ru">pasha2186@list.ru</a>
+            </p>
             <h3>Репетиции</h3>
             <p>
                 Репетиции Театра старинной музыки проходят по вторникам и пятницам
