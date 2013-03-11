@@ -60,6 +60,19 @@
                         <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2013-april-5.jpg"/>
                     </td>
                 </tr>
+                <tr>
+                    <td>21 мая 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td><u>Закрытие 33-го сезона</u></td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-may-21.pdf">Афиша</a></td>
+                </tr>
+                <tr style="border-width: 0px">
+                    <td colspan="6" align="center"> <!-- style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666" -->
+                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2013-may-21.jpg"/>
+                    </td>
+                </tr>
             </table>
             
 
