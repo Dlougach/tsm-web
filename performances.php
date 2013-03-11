@@ -50,7 +50,7 @@
                 <tr>
                     <td>5 апреля 2013&nbsp;г.</td>
                     <td>19:00</td>
-                    <td><u>Вторая жизнь великого господина Генделя</u></td>
+                    <td><u>Вторая жизнь великолепного господина Генделя</u></td>
                     <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
                     <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
                     <td> <a target="_blank" href="posters/poster-2013-april-5.pdf">Афиша</a></td>
@@ -71,6 +71,40 @@
                 <tr style="border-width: 0px">
                     <td colspan="6" align="center"> <!-- style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666" -->
                         <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2013-may-21.jpg"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>27 сентября 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td><u>Концерт солистов. Открытие 34-го сезона</u></td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-september-27.pdf">Афиша</a></td>
+                </tr>
+                <tr style="border-width: 0px">
+                    <td colspan="6" align="center"> <!-- style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666" -->
+                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2013-september-27.jpg"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>25 октября 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td><u>Вторая жизнь великолепного господина Генделя</u></td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-october-25.pdf">Афиша</a></td>
+                </tr>
+                  <tr>
+                    <td>20 декабря 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td><u>Рождественский концерт</u></td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-december-20.pdf">Афиша</a></td>
+                </tr>
+                <tr style="border-width: 0px">
+                    <td colspan="6" align="center"> <!-- style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666" -->
+                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2013-december-20.jpg"/>
                     </td>
                 </tr>
             </table>
