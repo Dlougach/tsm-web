@@ -63,7 +63,7 @@
                 
                  <tr>
                     <td>12 апреля 2013&nbsp;г.</td>
-                    <td>19:00</td>
+                    <td>20:00</td>
                     <td><u>Вторая жизнь великолепного господина Генделя</u></td>
                     <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
                     <td> <a target="_blank" href="http://maps.yandex.ru/-/CVVeQM2x">Карта</a></td>
