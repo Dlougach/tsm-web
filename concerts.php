@@ -31,6 +31,14 @@
                     <th width="10%"></th>
                 </tr>
                 <tr>
+                    <td>21 мая 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td>Закрытие 33-го сезона</td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-may-21.pdf">Афиша</a></td>
+                </tr>
+                <tr>
                     <td>21 декабря 2012&nbsp;г.</td>
                     <td>19:00</td>
                     <td>Рождественский&nbsp;концерт</td>
