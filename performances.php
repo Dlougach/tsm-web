@@ -46,28 +46,14 @@
                     <th width="25%">Место проведения</th>
                     <th width="10%"></th>
                     <th width="10%"></th>
-                </tr>
-                <tr>
-                    <td>25 октября 2013&nbsp;г.</td>
-                    <td>19:00</td>
-                    <td><u>Вторая жизнь Великолепного господина Генделя</u></td>
-                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
-                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CVVeQM2x">Карта</a></td>
-                    <td> <a target="_blank" href="posters/poster-2013-october-25.pdf">Афиша</a></td>
-                </tr>
-                <tr style="border-width: 0px">
-                    <td colspan="6" align="center"> <!-- style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666" -->
-                        <img style="max-width: 100%; width: 700px; margin-bottom: 10px;" src="posters/poster-2013-october-25.jpg"/>
-                    </td>
-                </tr>
-                
+                </tr> 
                  <tr>
-                    <td>24 декабря 2013&nbsp;г.</td>
+                    <td>23 декабря 2013&nbsp;г.</td>
                     <td>19:00</td>
                     <td><u>Рождественский концерт</u></td>
                     <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
                     <td> <a target="_blank" href="http://maps.yandex.ru/-/CVVeQM2x">Карта</a></td>
-                    <td> <a target="_blank" href="posters/poster-2013-december-24.pdf">Афиша</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-december-23.pdf">Афиша</a></td>
                 </tr>
                 <tr style="border-width: 0px">
                     <td colspan="6" align="center"> <!-- style="border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #666666" -->
@@ -99,6 +85,13 @@
                     <td valign="baseline">
                         <p>В своих концертах Театр исполняет, в основном, духовную музыку. Но бывают и исключения...</p>
                         <p><a href="concerts.php">Читать далее</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="middle"><a href="Hendel.php"><img class="greedywidth" src="new/repertoir_Hendel.png" alt="Вторая жизнь Великолепного господина Генделя" /></a></td>
+                    <td valign="baseline">
+                        <p>Вторая жизнь Великолепного господина Генделя - мировая премьера. </p>
+                        <p><a href="Hendel.php">Читать далее</a></p>
                     </td>
                 </tr>
                 <tr>
