@@ -1,0 +1,31 @@
+DEST_PATH := /home/jacob/tsm_web/new/photosOrphee
+GALERY_PHOTO_SOURCES := $(wildcard orphee_f??.jpg)
+INTEXT_PHOTO_SOURCES := $(wildcard orphee_fig_?.JPG)
+
+GALLERY_THUMBNAILS := $(patsubst %.jpg,$(DEST_PATH)/%s.jpg, $(GALERY_PHOTO_SOURCES))
+GALLERY_MEDIUM := $(patsubst %.jpg,$(DEST_PATH)/%m.jpg, $(GALERY_PHOTO_SOURCES))
+GALLERY_LARGE := $(patsubst %.jpg,$(DEST_PATH)/%l.jpg, $(GALERY_PHOTO_SOURCES))
+INTEXT_TARGETS := $(patsubst %.JPG,$(DEST_PATH)/%.jpg, $(INTEXT_PHOTO_SOURCES))
+
+all: thumbnails medium large intext
+
+thumbnails: $(GALLERY_THUMBNAILS)
+
+medium: $(GALLERY_MEDIUM)
+
+large: $(GALLERY_LARGE)
+
+intext: $(INTEXT_TARGETS)
+
+$(DEST_PATH)/%s.jpg: %.jpg
+	convert -thumbnail x70 $< $@
+
+$(DEST_PATH)/%m.jpg: %.jpg
+	convert -quality 30 -resize x500 -define jpeg:extent=100kb $< $@
+
+$(DEST_PATH)/%l.jpg: %.jpg
+	convert -compress jpeg2000 -quality 90 -resize "1200x1200>" -define jpeg:extent=600kb $< $@
+
+$(DEST_PATH)/orphee_fig_%.jpg: orphee_fig_%.JPG
+	cp $< $@
+
