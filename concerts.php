@@ -31,12 +31,36 @@
                     <th width="10%"></th>
                 </tr>
                 <tr>
+                    <td>13 ноября 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td>Сны наяву</td>
+                    <td>Детская школа исскуств №3</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CVb7bDpf">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-november-13.jpg">Афиша</a></td>
+                </tr>
+                <tr>
+                    <td>25 октября 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td>Вторая жизнь Великолепного господина Генделя</td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-october-25.pdf">Афиша</a></td>
+                </tr>
+                  <tr>
                     <td>21 мая 2013&nbsp;г.</td>
                     <td>19:00</td>
                     <td>Закрытие 33-го сезона</td>
                     <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
                     <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
                     <td> <a target="_blank" href="posters/poster-2013-may-21.pdf">Афиша</a></td>
+                </tr>
+                 <tr>
+                    <td>5 апреля 2013&nbsp;г.</td>
+                    <td>19:00</td>
+                    <td>Вторая жизнь Великолепного господина Генделя</td>
+                    <td>ДК МГУ &mdash; Большой&nbsp;зал</td>
+                    <td> <a target="_blank" href="http://maps.yandex.ru/-/CBWIf26K">Карта</a></td>
+                    <td> <a target="_blank" href="posters/poster-2013-april-5.pdf">Афиша</a></td>
                 </tr>
                 <tr>
                     <td>21 декабря 2012&nbsp;г.</td>

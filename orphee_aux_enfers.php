@@ -12,23 +12,6 @@
                 width: 40%;
             }
             
-            #intext_photo1 {
-                float: left;
-                width: 50%;
-                margin: 2% 3% 2% 0%;
-            }
-            
-            #intext_photo2 {
-                float: right;
-                width: 30%;
-                margin: 2% 0% 2% 3%;
-            }
-            
-            #intext_photo3 {
-                width: 100%;
-                margin: 4% 6% 4% 0%;
-            }
-            
         </style>
     </head>
     <body> 
